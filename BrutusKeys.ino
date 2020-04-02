@@ -1,13 +1,11 @@
-
-
 #include "arduino2.h"
 
-// JP1 is an input
+// inputs
 byte rows[] = {10, 9, 8, 7, 6, 5, 4, 3};
 const int rowCount = 8;
 
 
-// JP2 and JP3 are outputs
+//outputs
 byte cols[] = {A0, A1, A2, A3, A4, A5, 12, 11};
 
 byte notes[32] = {
